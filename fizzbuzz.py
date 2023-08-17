@@ -1,5 +1,5 @@
 x=int(input('Enter the range:'))
-for i in range(1,x-1,-1):
+for i in range(1,x+1):
     if i%3==0 and i%5==0:
         print('fizzbuzz')
     elif i%3==0:
